@@ -1,0 +1,45 @@
+.dashboard-container {
+    padding: 40px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .dashboard-header h1 {
+    font-size: 28px;
+    color: #1e3a8a;
+    margin-bottom: 4px;
+  }
+  
+  .dashboard-header p {
+    font-size: 16px;
+    color: #4b5563;
+    margin-bottom: 32px;
+  }
+  
+  .dashboard-section {
+    margin-bottom: 40px;
+  }
+  
+  .dashboard-section h2 {
+    font-size: 20px;
+    color: #111827;
+    margin-bottom: 16px;
+  }
+  
+  .club-list,
+  .event-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  
+  .club-card,
+  .event-card {
+    background-color: #f1f5f9;
+    padding: 16px 20px;
+    border-radius: 8px;
+    border: 1px solid #cbd5e1;
+    font-size: 15px;
+  }
+  
