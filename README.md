@@ -34,8 +34,43 @@ Develop an integrated platform accessible only to authorized @isak.jp users. Thi
 * Client-server architecture with Axios-based API integration
 
 ## II. System Design
+### User Interface
+**1. Login Page**
+**2. Dashboard (Admin, Club Leader, Member)**
+* Welcome message
+* “Your Clubs” section
+* Upcoming events
+* Quick links (join club, view calendar, edit profile)
+  
+**3. Club Directory / Explore Orgs**
+* List of all registered clubs/orgs
+* Filters (e.g., category, popularity)
+* “Join” or “Request to Join” buttons
+* Club profiles (click → club detail page)
 
+**4. Club Profile**
+* Club description, leader info
+* Events timeline or calendar
+* Inventory & announcements (for leaders)
+* Member list (for leaders/admins)
 ### System Diagram
+
+**5. Admin Dashboard**
+* View and approve club registration requests
+* Manage users and permissions
+* Generate reports
+* Inventory + activity summary by club
+
+**6. Event Management Page**
+For: Club Leaders
+* Create/edit/delete events
+* Attach attendance (manual or QR code)
+* View RSVPs or check-in history
+
+**7. Join/Leave Club Confirmation Flow**
+For students
+* Show success screen or message when joining/leaving a club
+
 ### UML Diagram
 ### ER Diagram
 ### Flowcharts
