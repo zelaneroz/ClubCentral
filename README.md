@@ -34,7 +34,7 @@ Develop an integrated platform accessible only to authorized @isak.jp users. Thi
 * Client-server architecture with Axios-based API integration
 
 ## II. System Design
-### User Interface
+
 ### System Diagram
 ### UML Diagram
 ### ER Diagram
@@ -43,4 +43,24 @@ Develop an integrated platform accessible only to authorized @isak.jp users. Thi
 
 ## III. Evaluation
 ### Success Criteria
+### User Interface (Figma)
+| No. |                    Success Criteria                   |                 Problem Addressed                 |
+|:---:|:-----------------------------------------------------:|:-------------------------------------------------:|
+| 1   | Login restricted to @isak.jp emails                   | Prevents unauthorized access                      |
+| 2   | Admin can approve or reject new club registrations    | Centralized control of clubs                      |
+| 3   | Club leaders can add/edit events and track attendance | Reduces manual tracking errors                    |
+| 4   | Inventory system per club is functional               | Prevents loss/misuse of club property             |
+| 5   | Student members can join clubs and RSVP to events     | Encourages student participation and transparency |
+
+
+### Test Log
+| Test ID | Feature Tested          | Result | Notes                                    |
+|---------|-------------------------|--------|------------------------------------------|
+| T1      | Google OAuth Login      | Pass   | Only @isak.jp users were able to log in  |
+| T2      | Event Creation (Leader) | Pass   | Form validated, event visible to members |
+| T3      | Attendance Marking      | Pass   | Manual and QR modes functioned correctly |
+| T4      | Inventory Edit          | Pass   | CRUD operations successful               |
+| T5      | Admin Role Restrictions | Pass   | Only admins could access approval pages  |
+
+
 
