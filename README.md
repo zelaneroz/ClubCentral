@@ -1,7 +1,7 @@
-# ClubCentral: Student Organization Management System
+# ClubHub: Student Organization Management System
 
 ## I. Background
-ClubCentral is a full-stack web application designed to streamline the management of student-led organizations. The platform enables multiple user roles (Admin, Club Leader, Student Member) within a university to manage club activities, attendance, event planning, inventory, and internal communication, all authenticated through Google domain-restricted login (e.g., @uwcisak.jp, @case.edu)
+ClubHub is a full-stack web application designed to streamline the management of student-led organizations. The platform enables multiple user roles (Admin, Club Leader, Student Member) within a university to manage club activities, attendance, event planning, inventory, and internal communication, all authenticated through Google domain-restricted login (e.g., @uwcisak.jp, @case.edu)
 
 ### Problem Definition (UWC ISAK Japan)
 At UWC ISAK Japan, over 70 student-led clubs are active, yet the management of inventory, attendance, event scheduling, and communication is often handled manually or across disparate platforms. This results in inefficiencies, data loss, and lack of transparency across student organizations.
